@@ -1,0 +1,108 @@
+{
+  "started_at_utc": "2026-10-29T07:22:53.485489+00:00",
+  "elapsed_seconds": 33.25,
+  "python": "3.12.14",
+  "mode": "real",
+  "model": "qwen-plus",
+  "source_hash": "6adf427d973b71bac4d1f6c3eb438eb0ce26377b9e9f3208e0b25f51c89034e8",
+  "materials_hash": "e97151ff3bff15cc76c46af1c3b47f0957b91dfada025108a3de7a69ffbef08c",
+  "rules_hash": "8fdfbe69e40188e76ca8f9f39458d0d7c03a06414ddc1d0aa30b8fc53b8daea8",
+  "input_hash": "2cfc68cdafa37726fdadc4fa73e2663f0eaf6a9fc2c1fdb7532910797d349887",
+  "faults": {},
+  "initial_draft_fixture": false,
+  "max_steps": 12,
+  "max_seconds": 240,
+  "status": "completed",
+  "model_calls": 11,
+  "usage": [
+    {
+      "total_tokens": 1412,
+      "completion_tokens": 56,
+      "prompt_tokens": 1356,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      }
+    },
+    {
+      "total_tokens": 1952,
+      "completion_tokens": 289,
+      "prompt_tokens": 1663,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "total_tokens": 2346,
+      "completion_tokens": 308,
+      "prompt_tokens": 2038,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "total_tokens": 2748,
+      "completion_tokens": 31,
+      "prompt_tokens": 2717,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      }
+    },
+    {
+      "total_tokens": 3430,
+      "completion_tokens": 62,
+      "prompt_tokens": 3368,
+      "prompt_tokens_details": {
+        "cached_tokens": 896
+      }
+    },
+    {
+      "total_tokens": 950,
+      "completion_tokens": 8,
+      "prompt_tokens": 942,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "total_tokens": 3994,
+      "completion_tokens": 320,
+      "prompt_tokens": 3674,
+      "prompt_tokens_details": {
+        "cached_tokens": 1536
+      }
+    },
+    {
+      "total_tokens": 3757,
+      "completion_tokens": 31,
+      "prompt_tokens": 3726,
+      "prompt_tokens_details": {
+        "cached_tokens": 1152
+      }
+    },
+    {
+      "total_tokens": 4439,
+      "completion_tokens": 62,
+      "prompt_tokens": 4377,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "total_tokens": 950,
+      "completion_tokens": 8,
+      "prompt_tokens": 942,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      }
+    },
+    {
+      "total_tokens": 4768,
+      "completion_tokens": 85,
+      "prompt_tokens": 4683,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    }
+  ],
+  "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1"
+}

@@ -1,0 +1,129 @@
+{
+  "mode": "real",
+  "total": 11,
+  "automated_passes": 11,
+  "cases": [
+    {
+      "case": "C01-normal",
+      "status": "completed",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 8,
+      "human_review": "pending",
+      "evidence": "C01-normal",
+      "initial_fixture": false,
+      "heldout": false
+    },
+    {
+      "case": "C02-missing",
+      "status": "needs_input",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 0,
+      "human_review": "pending",
+      "evidence": "C02-missing",
+      "initial_fixture": false,
+      "heldout": false
+    },
+    {
+      "case": "C03-no-material",
+      "status": "needs_input",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 2,
+      "human_review": "pending",
+      "evidence": "C03-no-material",
+      "initial_fixture": false,
+      "heldout": false
+    },
+    {
+      "case": "C04-tool-failure",
+      "status": "needs_input",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 8,
+      "human_review": "pending",
+      "evidence": "C04-tool-failure",
+      "initial_fixture": false,
+      "heldout": false
+    },
+    {
+      "case": "C05-overlong",
+      "status": "completed",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 7,
+      "human_review": "pending",
+      "evidence": "C05-overlong",
+      "initial_fixture": true,
+      "heldout": false
+    },
+    {
+      "case": "C06-rule-risk",
+      "status": "completed",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 7,
+      "human_review": "pending",
+      "evidence": "C06-rule-risk",
+      "initial_fixture": true,
+      "heldout": false
+    },
+    {
+      "case": "C07-recover-failure",
+      "status": "completed",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 9,
+      "human_review": "pending",
+      "evidence": "C07-recover-failure",
+      "initial_fixture": false,
+      "heldout": false
+    },
+    {
+      "case": "C08-empty-rewrite",
+      "status": "completed",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 9,
+      "human_review": "pending",
+      "evidence": "C08-empty-rewrite",
+      "initial_fixture": false,
+      "heldout": false
+    },
+    {
+      "case": "H01-new-product",
+      "status": "completed",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 9,
+      "human_review": "pending",
+      "evidence": "H01-new-product",
+      "initial_fixture": false,
+      "heldout": true
+    },
+    {
+      "case": "H02-paraphrase",
+      "status": "completed",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 5,
+      "human_review": "pending",
+      "evidence": "H02-paraphrase",
+      "initial_fixture": false,
+      "heldout": true
+    },
+    {
+      "case": "H03-impossible",
+      "status": "incomplete",
+      "automated_pass": true,
+      "errors": [],
+      "steps": 12,
+      "human_review": "pending",
+      "evidence": "H03-impossible",
+      "initial_fixture": false,
+      "heldout": true
+    }
+  ],
+  "scope": "自动合同验收，不是独立人工内容评分或泛化能力证明"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "revision": 1,
+    "hash": "0cba68ffce7148aaf974aae92a0bf46d56a71fd1fe53f1dda1f598424c1bfa7f",
+    "draft": {
+      "title": "上课怎么留住老师讲的内容并带回电脑",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "拾音笔校园版支持离线录音，单次录音最长两小时。录音文件可通过数据线导出。该版本不提供云同步，也不支持录音自动转写。",
+          "subtitle": "",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 2
+        }
+      ]
+    }
+  }
+]

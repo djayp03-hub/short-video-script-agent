@@ -1,0 +1,38 @@
+[
+  {
+    "revision": 1,
+    "hash": "9e1370b9363551c9d64d97963b0303488506397e609e28b16b872c4c832c51c5",
+    "draft": {
+      "title": "字幕入门",
+      "scenes": [
+        {
+          "visual": "展示手动字幕编辑",
+          "narration": "剪映盒演示版支持手动添加字幕。用户可以修改字幕文字和颜色。剪映盒演示版支持手动添加字幕。用户可以修改字幕文字和颜色。剪映盒演示版支持手动添加字幕。用户可以修改字幕文字和颜色。",
+          "subtitle": "",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 2
+        }
+      ]
+    }
+  },
+  {
+    "revision": 2,
+    "hash": "c21ba7a050c40f4678cbb92583942373565c680f7359bd2dca08b3ce9ee932e8",
+    "draft": {
+      "title": "手动字幕和视频裁剪入门",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "剪映盒演示版支持手动添加字幕。",
+          "subtitle": "",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 1
+        }
+      ]
+    }
+  }
+]

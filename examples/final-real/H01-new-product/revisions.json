@@ -1,0 +1,74 @@
+[
+  {
+    "revision": 1,
+    "hash": "15000c16ae0f5c31707ed006e715f52f91b5cc82c91ebeaebd028c06523af873",
+    "draft": {
+      "title": "课堂录音怎么导出？拾音笔校园版实操",
+      "scenes": [
+        {
+          "visual": "蓝底白字卡片：'拾音笔校园版 · 课堂录音'",
+          "narration": "上课用拾音笔校园版录音，不用联网也能录。",
+          "subtitle": "离线录音｜单次最长2小时",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "黄底黑字卡片：'导出文件 · 数据线连接'",
+          "narration": "录完的音频，用数据线连电脑就能导出。",
+          "subtitle": "不靠云同步｜不自动转写",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "灰底白字卡片：'学生剪辑第一步'",
+          "narration": "导出后，导入剪辑软件，就能开始你的短视频创作啦。",
+          "subtitle": "适合刚开始剪辑的同学",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 3
+        }
+      ]
+    }
+  },
+  {
+    "revision": 2,
+    "hash": "15000c16ae0f5c31707ed006e715f52f91b5cc82c91ebeaebd028c06523af873",
+    "draft": {
+      "title": "课堂录音怎么导出？拾音笔校园版实操",
+      "scenes": [
+        {
+          "visual": "蓝底白字卡片：'拾音笔校园版 · 课堂录音'",
+          "narration": "上课用拾音笔校园版录音，不用联网也能录。",
+          "subtitle": "离线录音｜单次最长2小时",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "黄底黑字卡片：'导出文件 · 数据线连接'",
+          "narration": "录完的音频，用数据线连电脑就能导出。",
+          "subtitle": "不靠云同步｜不自动转写",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "灰底白字卡片：'学生剪辑第一步'",
+          "narration": "导出后，导入剪辑软件，就能开始你的短视频创作啦。",
+          "subtitle": "适合刚开始剪辑的同学",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 3
+        }
+      ]
+    }
+  }
+]

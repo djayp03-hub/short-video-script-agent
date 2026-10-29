@@ -1,0 +1,100 @@
+{
+  "status": "incomplete",
+  "reason": "step_limit",
+  "mode": "real",
+  "draft": {
+    "title": "拾音笔校园版：课堂录音怎么导出？",
+    "scenes": [
+      {
+        "visual": "纯色背景+白色文字卡片，居中显示‘单次录音最长两小时’",
+        "narration": "拾音笔校园版，单次录音最长两小时。",
+        "subtitle": "单次录音最长两小时",
+        "source_ids": [
+          "H11"
+        ],
+        "min_seconds": 2
+      },
+      {
+        "visual": "纯色背景+白色文字卡片，居中显示‘通过数据线导出’",
+        "narration": "录音文件，通过数据线导出。",
+        "subtitle": "通过数据线导出",
+        "source_ids": [
+          "H11"
+        ],
+        "min_seconds": 2
+      },
+      {
+        "visual": "纯色背景+白色文字卡片，居中显示‘不提供云同步’",
+        "narration": "不提供云同步。",
+        "subtitle": "不提供云同步",
+        "source_ids": [
+          "H11"
+        ],
+        "min_seconds": 2
+      }
+    ]
+  },
+  "revision": 1,
+  "estimated_total_seconds": 9.6,
+  "checks": {
+    "estimate_duration": {
+      "passed": false,
+      "total_seconds": 9.6,
+      "target_seconds": 1,
+      "excess_seconds": 8.6,
+      "scenes": [
+        {
+          "scene": 1,
+          "seconds": 4.05,
+          "voice_seconds": 4.05,
+          "subtitle_seconds": 1.8
+        },
+        {
+          "scene": 2,
+          "seconds": 3.05,
+          "voice_seconds": 3.05,
+          "subtitle_seconds": 1.4
+        },
+        {
+          "scene": 3,
+          "seconds": 2,
+          "voice_seconds": 1.65,
+          "subtitle_seconds": 1.2
+        }
+      ],
+      "assumptions": {
+        "zh_voice_chars_per_second": 4,
+        "zh_subtitle_chars_per_second": 5,
+        "en_voice_words_per_second": 2.5,
+        "en_subtitle_words_per_second": 3,
+        "punctuation_pause_seconds": 0.15,
+        "transition_seconds": 0.25,
+        "parallel_tracks": "max(voice, subtitle, min_seconds)",
+        "kind": "estimate_not_recorded_audio"
+      },
+      "revision": 1,
+      "fingerprint": "f09f8a78cadabefdd86cc0a6b03fdd7766c237eaef020067fc58814c2f51424a"
+    }
+  },
+  "sources": [
+    {
+      "id": "H11",
+      "product": "拾音笔校园版",
+      "version": "2026-10-20",
+      "synthetic": true,
+      "keywords": [
+        "录音",
+        "离线",
+        "导出",
+        "学习"
+      ],
+      "text": "拾音笔校园版支持离线录音，单次录音最长两小时。录音文件可通过数据线导出。该版本不提供云同步，也不支持录音自动转写。"
+    }
+  ],
+  "risks": [
+    "当前脚本预计时长超限",
+    "草稿未完成验收，不应作为已合格脚本使用"
+  ],
+  "human_review": "pending",
+  "steps": 12
+}

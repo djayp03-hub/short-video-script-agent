@@ -1,0 +1,15 @@
+{
+  "question": 4,
+  "title": "短视频脚本 Agent",
+  "repository_url": "https://github.com/djayp03-hub/short-video-script-agent",
+  "branch": "main",
+  "entry": "run.py",
+  "engineering_tests": 40,
+  "limitations": [
+    "同模型语义审核存在漏判",
+    "没有独立人工内容评分",
+    "净人工工时未连续计时",
+    "最终规则校验修复后未重跑真实评测：本地缺密钥"
+  ],
+  "commit_sha_instruction": "Use the full SHA supplied with the submission, or git rev-parse HEAD on the submitted checkout."
+}

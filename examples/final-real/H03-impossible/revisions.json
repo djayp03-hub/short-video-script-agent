@@ -1,0 +1,38 @@
+[
+  {
+    "revision": 1,
+    "hash": "fd1cdb8ed99f0f14d5e2474db97a18cf8fa71aa91037cdc26c18c3a3ab92c049",
+    "draft": {
+      "title": "拾音笔校园版：课堂录音怎么导出？",
+      "scenes": [
+        {
+          "visual": "纯色背景+白色文字卡片，居中显示‘单次录音最长两小时’",
+          "narration": "拾音笔校园版，单次录音最长两小时。",
+          "subtitle": "单次录音最长两小时",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 2
+        },
+        {
+          "visual": "纯色背景+白色文字卡片，居中显示‘通过数据线导出’",
+          "narration": "录音文件，通过数据线导出。",
+          "subtitle": "通过数据线导出",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 2
+        },
+        {
+          "visual": "纯色背景+白色文字卡片，居中显示‘不提供云同步’",
+          "narration": "不提供云同步。",
+          "subtitle": "不提供云同步",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 2
+        }
+      ]
+    }
+  }
+]

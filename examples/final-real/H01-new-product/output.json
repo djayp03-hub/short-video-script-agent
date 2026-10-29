@@ -1,0 +1,106 @@
+{
+  "status": "completed",
+  "reason": "checks_passed",
+  "mode": "real",
+  "draft": {
+    "title": "课堂录音怎么导出？拾音笔校园版实操",
+    "scenes": [
+      {
+        "visual": "蓝底白字卡片：'拾音笔校园版 · 课堂录音'",
+        "narration": "上课用拾音笔校园版录音，不用联网也能录。",
+        "subtitle": "离线录音｜单次最长2小时",
+        "source_ids": [
+          "H11"
+        ],
+        "min_seconds": 4
+      },
+      {
+        "visual": "黄底黑字卡片：'导出文件 · 数据线连接'",
+        "narration": "录完的音频，用数据线连电脑就能导出。",
+        "subtitle": "不靠云同步｜不自动转写",
+        "source_ids": [
+          "H11"
+        ],
+        "min_seconds": 4
+      },
+      {
+        "visual": "灰底白字卡片：'学生剪辑第一步'",
+        "narration": "导出后，导入剪辑软件，就能开始你的短视频创作啦。",
+        "subtitle": "适合刚开始剪辑的同学",
+        "source_ids": [
+          "H11"
+        ],
+        "min_seconds": 3
+      }
+    ]
+  },
+  "revision": 2,
+  "estimated_total_seconds": 15.3,
+  "checks": {
+    "estimate_duration": {
+      "passed": true,
+      "total_seconds": 15.3,
+      "target_seconds": 25,
+      "excess_seconds": 0,
+      "scenes": [
+        {
+          "scene": 1,
+          "seconds": 4.8,
+          "voice_seconds": 4.8,
+          "subtitle_seconds": 2.33
+        },
+        {
+          "scene": 2,
+          "seconds": 4.3,
+          "voice_seconds": 4.3,
+          "subtitle_seconds": 2.0
+        },
+        {
+          "scene": 3,
+          "seconds": 5.7,
+          "voice_seconds": 5.7,
+          "subtitle_seconds": 2.0
+        }
+      ],
+      "assumptions": {
+        "zh_voice_chars_per_second": 4,
+        "zh_subtitle_chars_per_second": 5,
+        "en_voice_words_per_second": 2.5,
+        "en_subtitle_words_per_second": 3,
+        "punctuation_pause_seconds": 0.15,
+        "transition_seconds": 0.25,
+        "parallel_tracks": "max(voice, subtitle, min_seconds)",
+        "kind": "estimate_not_recorded_audio"
+      },
+      "revision": 2,
+      "fingerprint": "4ae87920201f074f9624985d69c517286c2cf458b9ac4611ca241318c089f1c8"
+    },
+    "check_rules": {
+      "passed": true,
+      "issues": [],
+      "review_mode": "real",
+      "semantic_supported": true,
+      "limitation": "自动审核不是独立人工事实复核",
+      "revision": 2,
+      "fingerprint": "4ae87920201f074f9624985d69c517286c2cf458b9ac4611ca241318c089f1c8"
+    }
+  },
+  "sources": [
+    {
+      "id": "H11",
+      "product": "拾音笔校园版",
+      "version": "2026-10-20",
+      "synthetic": true,
+      "keywords": [
+        "录音",
+        "离线",
+        "导出",
+        "学习"
+      ],
+      "text": "拾音笔校园版支持离线录音，单次录音最长两小时。录音文件可通过数据线导出。该版本不提供云同步，也不支持录音自动转写。"
+    }
+  ],
+  "risks": [],
+  "human_review": "pending",
+  "steps": 9
+}

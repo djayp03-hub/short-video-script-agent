@@ -1,0 +1,51 @@
+{
+  "runs": 11,
+  "passes": 11,
+  "scope": "记录一致性、引用有效性、时长复算；不证明事实语义正确",
+  "results": [
+    {
+      "case": "C01-normal",
+      "errors": []
+    },
+    {
+      "case": "C02-missing",
+      "errors": []
+    },
+    {
+      "case": "C03-no-material",
+      "errors": []
+    },
+    {
+      "case": "C04-tool-failure",
+      "errors": []
+    },
+    {
+      "case": "C05-overlong",
+      "errors": []
+    },
+    {
+      "case": "C06-rule-risk",
+      "errors": []
+    },
+    {
+      "case": "C07-recover-failure",
+      "errors": []
+    },
+    {
+      "case": "C08-empty-rewrite",
+      "errors": []
+    },
+    {
+      "case": "H01-new-product",
+      "errors": []
+    },
+    {
+      "case": "H02-paraphrase",
+      "errors": []
+    },
+    {
+      "case": "H03-impossible",
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "revision": 1,
+    "hash": "8e2c3176c7656d11b57b291605d8bf62cd09b2cc805f167c4ff193c02bfedf57",
+    "draft": {
+      "title": "剪映盒演示版：手动字幕+视频裁剪，学生也能上手",
+      "scenes": [
+        {
+          "visual": "蓝底白字动态卡片，文字：『手动添加字幕』",
+          "narration": "剪映盒演示版支持手动添加字幕，还能改文字和颜色。",
+          "subtitle": "支持手动字幕｜可修改文字和颜色",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "黄底黑字动态卡片，文字：『不支持语音转字幕』",
+          "narration": "注意，它不支持自动语音转字幕，得自己输入。",
+          "subtitle": "× 无自动语音转字幕",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "绿底白字动态卡片，文字：『裁剪视频片段』",
+          "narration": "也能裁剪视频片段，还能调整顺序。",
+          "subtitle": "支持裁剪｜可调片段顺序",
+          "source_ids": [
+            "P02"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "灰底白字动态卡片，文字：『保存为本地草稿』",
+          "narration": "编辑完，直接保存成本地草稿，随时继续。",
+          "subtitle": "保存为本地草稿",
+          "source_ids": [
+            "P02"
+          ],
+          "min_seconds": 4
+        }
+      ]
+    }
+  },
+  {
+    "revision": 2,
+    "hash": "fe5479e622e6bfd380b7819f159b3f057cf355b6816aa0cf295b3f0f71b9e731",
+    "draft": {
+      "title": "剪映盒演示版：手动字幕+视频裁剪，学生也能上手",
+      "scenes": [
+        {
+          "visual": "蓝底白字动态卡片，文字：『手动添加字幕』",
+          "narration": "剪映盒演示版支持手动添加字幕，可修改文字和颜色。",
+          "subtitle": "支持手动字幕｜可修改文字和颜色",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "黄底黑字动态卡片，文字：『不支持语音转字幕』",
+          "narration": "注意，它不支持自动语音转字幕。",
+          "subtitle": "× 无自动语音转字幕",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "绿底白字动态卡片，文字：『裁剪视频片段』",
+          "narration": "支持裁剪视频片段，也能调整片段顺序。",
+          "subtitle": "支持裁剪｜可调片段顺序",
+          "source_ids": [
+            "P02"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "灰底白字动态卡片，文字：『保存为本地草稿』",
+          "narration": "编辑后可保存为本地草稿。",
+          "subtitle": "保存为本地草稿",
+          "source_ids": [
+            "P02"
+          ],
+          "min_seconds": 4
+        }
+      ]
+    }
+  }
+]

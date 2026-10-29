@@ -1,0 +1,94 @@
+{
+  "status": "incomplete",
+  "reason": "model_stopped",
+  "mode": "mock",
+  "draft": {
+    "title": "字幕入门",
+    "scenes": [
+      {
+        "visual": "展示手动字幕编辑",
+        "narration": "剪映盒演示版支持自动语音转字幕，保证爆款，效率提升80%。",
+        "subtitle": "",
+        "source_ids": [
+          "P01"
+        ],
+        "min_seconds": 2
+      }
+    ]
+  },
+  "revision": 1,
+  "estimated_total_seconds": 6.6,
+  "checks": {
+    "estimate_duration": {
+      "passed": true,
+      "total_seconds": 6.6,
+      "target_seconds": 30,
+      "excess_seconds": 0,
+      "scenes": [
+        {
+          "scene": 1,
+          "seconds": 6.6,
+          "voice_seconds": 6.6,
+          "subtitle_seconds": 0.0
+        }
+      ],
+      "assumptions": {
+        "zh_voice_chars_per_second": 4,
+        "zh_subtitle_chars_per_second": 5,
+        "en_voice_words_per_second": 2.5,
+        "en_subtitle_words_per_second": 3,
+        "punctuation_pause_seconds": 0.15,
+        "transition_seconds": 0.25,
+        "parallel_tracks": "max(voice, subtitle, min_seconds)",
+        "kind": "estimate_not_recorded_audio"
+      },
+      "revision": 1,
+      "fingerprint": "a0d5cafc41bc5466da64a44fb9616ea0a9a1f553bcb4b9f7943d652211a03373"
+    },
+    "check_rules": {
+      "passed": false,
+      "issues": [
+        "R01: 出现禁用表达 效率提升80%",
+        "R01: 出现禁用表达 保证爆款"
+      ],
+      "review_mode": "mechanical",
+      "revision": 1,
+      "fingerprint": "a0d5cafc41bc5466da64a44fb9616ea0a9a1f553bcb4b9f7943d652211a03373"
+    }
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product": "剪映盒演示版",
+      "version": "2026-10-01",
+      "synthetic": true,
+      "keywords": [
+        "字幕",
+        "手动字幕",
+        "短视频",
+        "剪辑"
+      ],
+      "text": "剪映盒演示版支持手动添加字幕。用户可以修改字幕文字和颜色。该版本不支持自动语音转字幕。"
+    },
+    {
+      "id": "P02",
+      "product": "剪映盒演示版",
+      "version": "2026-10-01",
+      "synthetic": true,
+      "keywords": [
+        "裁剪",
+        "剪辑",
+        "视频"
+      ],
+      "text": "剪映盒演示版支持裁剪视频片段和调整片段顺序。编辑后的项目可以保存为本地草稿。素材未提供任何效率提升或播放量数据。"
+    }
+  ],
+  "risks": [
+    "R01: 出现禁用表达 效率提升80%",
+    "R01: 出现禁用表达 保证爆款",
+    "草稿未完成验收，不应作为已合格脚本使用"
+  ],
+  "human_review": "pending",
+  "steps": 4,
+  "detail": "离线规则检查未通过"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "revision": 1,
+    "hash": "f3720a21c96ab998ea9499d99b5b6301a13ecdfb4994a6b4420385c9ce67ae82",
+    "draft": {
+      "title": "便签打印机学习版：只打黑白文字便签",
+      "scenes": [
+        {
+          "visual": "纯白背景上浮现‘黑白文字’四字+便签图标（简约线稿）",
+          "narration": "便签打印机学习版，只支持黑白文字打印。",
+          "subtitle": "仅黑白文字｜需配套热敏纸",
+          "source_ids": [
+            "N21"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "灰色禁止符号覆盖彩色便签图示",
+          "narration": "不支持彩色打印，也不支持扫描文件。",
+          "subtitle": "❌无彩色｜❌不扫描",
+          "source_ids": [
+            "N21"
+          ],
+          "min_seconds": 4
+        }
+      ]
+    }
+  },
+  {
+    "revision": 2,
+    "hash": "f3720a21c96ab998ea9499d99b5b6301a13ecdfb4994a6b4420385c9ce67ae82",
+    "draft": {
+      "title": "便签打印机学习版：只打黑白文字便签",
+      "scenes": [
+        {
+          "visual": "纯白背景上浮现‘黑白文字’四字+便签图标（简约线稿）",
+          "narration": "便签打印机学习版，只支持黑白文字打印。",
+          "subtitle": "仅黑白文字｜需配套热敏纸",
+          "source_ids": [
+            "N21"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "灰色禁止符号覆盖彩色便签图示",
+          "narration": "不支持彩色打印，也不支持扫描文件。",
+          "subtitle": "❌无彩色｜❌不扫描",
+          "source_ids": [
+            "N21"
+          ],
+          "min_seconds": 4
+        }
+      ]
+    }
+  }
+]

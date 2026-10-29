@@ -1,0 +1,157 @@
+{
+  "weights": {
+    "facts": 30,
+    "decisions": 25,
+    "status": 20,
+    "constraints": 15,
+    "usability": 10
+  },
+  "official_rubric": false,
+  "mean_score": null,
+  "results": [
+    {
+      "case": "C01-normal",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "C02-missing",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "C03-no-material",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "C04-tool-failure",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "C05-overlong",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "C06-rule-risk",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "C07-recover-failure",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "C08-empty-rewrite",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "H01-new-product",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "H02-paraphrase",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "H03-impossible",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    },
+    {
+      "case": "fresh-real",
+      "status": "unverified",
+      "score": null,
+      "missing": [
+        "facts",
+        "decisions",
+        "status",
+        "constraints",
+        "usability"
+      ]
+    }
+  ]
+}

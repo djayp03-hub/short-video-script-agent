@@ -1,0 +1,38 @@
+[
+  {
+    "revision": 1,
+    "hash": "d334b2e56f37e22916e13004c6bb8cc8e1c7e9b67f003a797ec0855ef1cff9b6",
+    "draft": {
+      "title": "课堂录音与文件导出",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "拾音笔校园版支持离线录音，单次录音最长两小时。录音文件可通过数据线导出。该版本不提供云同步，也不支持录音自动转写。",
+          "subtitle": "",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 2
+        }
+      ]
+    }
+  },
+  {
+    "revision": 2,
+    "hash": "f779f32f9890d3e892be6faffa1859ac0c61d95e12c602fa05f884c2dd857c84",
+    "draft": {
+      "title": "课堂录音与文件导出",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "拾音笔校园版支持离线录音，单次录音最长两小时。",
+          "subtitle": "",
+          "source_ids": [
+            "H11"
+          ],
+          "min_seconds": 1
+        }
+      ]
+    }
+  }
+]

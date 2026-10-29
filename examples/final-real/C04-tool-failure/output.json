@@ -1,0 +1,16 @@
+{
+  "status": "needs_input",
+  "reason": "clarification",
+  "mode": "real",
+  "draft": null,
+  "revision": 0,
+  "estimated_total_seconds": null,
+  "checks": {},
+  "sources": [],
+  "risks": [
+    "草稿未完成验收，不应作为已合格脚本使用"
+  ],
+  "human_review": "pending",
+  "steps": 8,
+  "question": "剪映盒演示版是否支持手动字幕和视频裁剪功能？请提供官方说明截图、帮助文档链接或具体功能描述，以便我们准确制作学生入门脚本。"
+}

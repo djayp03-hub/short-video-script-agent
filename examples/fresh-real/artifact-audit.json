@@ -1,0 +1,11 @@
+{
+  "runs": 1,
+  "passes": 1,
+  "scope": "记录一致性、引用有效性、时长复算；不证明事实语义正确",
+  "results": [
+    {
+      "case": "fresh-real",
+      "errors": []
+    }
+  ]
+}

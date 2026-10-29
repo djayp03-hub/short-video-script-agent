@@ -1,0 +1,14 @@
+{
+  "title": "字幕入门",
+  "scenes": [
+    {
+      "visual": "展示手动字幕编辑",
+      "narration": "剪映盒演示版支持自动语音转字幕，保证爆款，效率提升80%。",
+      "subtitle": "",
+      "source_ids": [
+        "P01"
+      ],
+      "min_seconds": 2
+    }
+  ]
+}

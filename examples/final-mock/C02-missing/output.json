@@ -1,0 +1,19 @@
+{
+  "status": "needs_input",
+  "reason": "missing_fields",
+  "mode": "mock",
+  "draft": null,
+  "revision": 0,
+  "estimated_total_seconds": null,
+  "checks": {},
+  "sources": [],
+  "risks": [
+    "草稿未完成验收，不应作为已合格脚本使用"
+  ],
+  "human_review": "pending",
+  "steps": 0,
+  "missing_fields": [
+    "target_seconds"
+  ],
+  "question": "请补充：target_seconds"
+}

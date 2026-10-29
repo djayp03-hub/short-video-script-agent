@@ -1,0 +1,170 @@
+[
+  {
+    "case": "C01-normal",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "C02-missing",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "C03-no-material",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "C04-tool-failure",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "C05-overlong",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "C06-rule-risk",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "C07-recover-failure",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "C08-empty-rewrite",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "H01-new-product",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "H02-paraphrase",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "H03-impossible",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  },
+  {
+    "case": "fresh-real",
+    "reviewer": "待填写",
+    "reviewer_type": "pending_human",
+    "grades": {
+      "facts": null,
+      "decisions": null,
+      "status": null,
+      "constraints": null,
+      "usability": null
+    },
+    "critical_defects": [],
+    "evidence_notes": ""
+  }
+]

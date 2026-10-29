@@ -1,0 +1,56 @@
+[
+  {
+    "revision": 1,
+    "hash": "2f54d414561b0df65a3ecd505d058c0afb025a940ba64830cf7a7445ae4ae8a8",
+    "draft": {
+      "title": "剪映盒演示版：手动字幕+视频裁剪入门",
+      "scenes": [
+        {
+          "visual": "蓝色背景文字卡片，居中显示‘手动添加字幕’",
+          "narration": "剪映盒演示版支持手动添加字幕，还能修改文字和颜色。",
+          "subtitle": "✅ 手动添加字幕\n🎨 可改文字和颜色",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "绿色背景文字卡片，居中显示‘裁剪视频片段’",
+          "narration": "它也支持裁剪视频片段，还能调整顺序，编辑完可保存为本地草稿。",
+          "subtitle": "✂️ 裁剪视频片段\n📁 保存为本地草稿",
+          "source_ids": [
+            "P02"
+          ],
+          "min_seconds": 4
+        }
+      ]
+    }
+  },
+  {
+    "revision": 2,
+    "hash": "2f54d414561b0df65a3ecd505d058c0afb025a940ba64830cf7a7445ae4ae8a8",
+    "draft": {
+      "title": "剪映盒演示版：手动字幕+视频裁剪入门",
+      "scenes": [
+        {
+          "visual": "蓝色背景文字卡片，居中显示‘手动添加字幕’",
+          "narration": "剪映盒演示版支持手动添加字幕，还能修改文字和颜色。",
+          "subtitle": "✅ 手动添加字幕\n🎨 可改文字和颜色",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 4
+        },
+        {
+          "visual": "绿色背景文字卡片，居中显示‘裁剪视频片段’",
+          "narration": "它也支持裁剪视频片段，还能调整顺序，编辑完可保存为本地草稿。",
+          "subtitle": "✂️ 裁剪视频片段\n📁 保存为本地草稿",
+          "source_ids": [
+            "P02"
+          ],
+          "min_seconds": 4
+        }
+      ]
+    }
+  }
+]

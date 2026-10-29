@@ -1,0 +1,20 @@
+[
+  {
+    "revision": 1,
+    "hash": "e675846904433324d956f1c6755d71f4dd9c800c3ec68477c682295791bc5515",
+    "draft": {
+      "title": "字幕入门",
+      "scenes": [
+        {
+          "visual": "展示手动字幕编辑",
+          "narration": "剪映盒演示版支持自动语音转字幕，保证爆款，效率提升80%。",
+          "subtitle": "",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 2
+        }
+      ]
+    }
+  }
+]

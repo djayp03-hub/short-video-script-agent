@@ -1,0 +1,103 @@
+{
+  "status": "completed",
+  "reason": "checks_passed",
+  "mode": "real",
+  "draft": {
+    "title": "手动字幕+视频裁剪入门",
+    "scenes": [
+      {
+        "visual": "文字卡片：『手动添加字幕』+色块示意",
+        "narration": "剪映盒演示版支持手动添加字幕，可修改文字和颜色。",
+        "subtitle": "手动加字幕｜改文字、改颜色",
+        "source_ids": [
+          "P01"
+        ],
+        "min_seconds": 2
+      },
+      {
+        "visual": "文字卡片：『裁剪视频片段』+顺序调整示意",
+        "narration": "也支持裁剪视频片段，还能调整顺序。",
+        "subtitle": "裁剪片段｜调换顺序",
+        "source_ids": [
+          "P02"
+        ],
+        "min_seconds": 2
+      }
+    ]
+  },
+  "revision": 2,
+  "estimated_total_seconds": 10.1,
+  "checks": {
+    "estimate_duration": {
+      "passed": true,
+      "total_seconds": 10.1,
+      "target_seconds": 15,
+      "excess_seconds": 0,
+      "scenes": [
+        {
+          "scene": 1,
+          "seconds": 5.8,
+          "voice_seconds": 5.8,
+          "subtitle_seconds": 2.2
+        },
+        {
+          "scene": 2,
+          "seconds": 4.05,
+          "voice_seconds": 4.05,
+          "subtitle_seconds": 1.6
+        }
+      ],
+      "assumptions": {
+        "zh_voice_chars_per_second": 4,
+        "zh_subtitle_chars_per_second": 5,
+        "en_voice_words_per_second": 2.5,
+        "en_subtitle_words_per_second": 3,
+        "punctuation_pause_seconds": 0.15,
+        "transition_seconds": 0.25,
+        "parallel_tracks": "max(voice, subtitle, min_seconds)",
+        "kind": "estimate_not_recorded_audio"
+      },
+      "revision": 2,
+      "fingerprint": "cf741d09e2abb98ebf96355f318032a8738c8e50818a925ca9172091cc5ab8f1"
+    },
+    "check_rules": {
+      "passed": true,
+      "issues": [],
+      "review_mode": "real",
+      "semantic_supported": true,
+      "limitation": "自动审核不是独立人工事实复核",
+      "revision": 2,
+      "fingerprint": "cf741d09e2abb98ebf96355f318032a8738c8e50818a925ca9172091cc5ab8f1"
+    }
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product": "剪映盒演示版",
+      "version": "2026-10-01",
+      "synthetic": true,
+      "keywords": [
+        "字幕",
+        "手动字幕",
+        "短视频",
+        "剪辑"
+      ],
+      "text": "剪映盒演示版支持手动添加字幕。用户可以修改字幕文字和颜色。该版本不支持自动语音转字幕。"
+    },
+    {
+      "id": "P02",
+      "product": "剪映盒演示版",
+      "version": "2026-10-01",
+      "synthetic": true,
+      "keywords": [
+        "裁剪",
+        "剪辑",
+        "视频"
+      ],
+      "text": "剪映盒演示版支持裁剪视频片段和调整片段顺序。编辑后的项目可以保存为本地草稿。素材未提供任何效率提升或播放量数据。"
+    }
+  ],
+  "risks": [],
+  "human_review": "pending",
+  "steps": 7
+}

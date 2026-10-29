@@ -1,0 +1,45 @@
+test_abstract_scene_without_product_interface_is_allowed (test_contracts.Contracts.test_abstract_scene_without_product_interface_is_allowed) ... ok
+test_adapter_only_moves_reason_preserving_raw_response (test_contracts.Contracts.test_adapter_only_moves_reason_preserving_raw_response) ... ok
+test_artifacts_are_real_outputs_and_immutable (test_contracts.Contracts.test_artifacts_are_real_outputs_and_immutable) ... ok
+test_banned_claim_in_title_is_rejected (test_contracts.Contracts.test_banned_claim_in_title_is_rejected) ... ok
+test_draft_contract_rejects_nan_and_extra_fields (test_contracts.Contracts.test_draft_contract_rejects_nan_and_extra_fields) ... ok
+test_duplicate_material_id_rejected (test_contracts.Contracts.test_duplicate_material_id_rejected) ... ok
+test_edit_invalidates_checks (test_contracts.Contracts.test_edit_invalidates_checks) ... ok
+test_finish_without_checks_blocked (test_contracts.Contracts.test_finish_without_checks_blocked) ... ok
+test_hash_changes_with_content (test_contracts.Contracts.test_hash_changes_with_content) ... ok
+test_initial_fixture_must_be_measured_before_replacement (test_contracts.Contracts.test_initial_fixture_must_be_measured_before_replacement) ... ok
+test_invalid_action_consumes_budget (test_contracts.Contracts.test_invalid_action_consumes_budget) ... ok
+test_invalid_rule_structure_is_rejected (test_contracts.Contracts.test_invalid_rule_structure_is_rejected) ... ok
+test_invalid_rules_still_produce_terminal_artifacts (test_contracts.Contracts.test_invalid_rules_still_produce_terminal_artifacts) ... ok
+test_missing_fields_requests_input_without_model_calls (test_contracts.Contracts.test_missing_fields_requests_input_without_model_calls) ... ok
+test_model_error_never_falls_back_to_mock (test_contracts.Contracts.test_model_error_never_falls_back_to_mock) ... ok
+test_model_is_told_not_to_reestimate_unchanged_draft (test_contracts.Contracts.test_model_is_told_not_to_reestimate_unchanged_draft) ... ok
+test_model_is_told_when_product_corpus_is_exhausted (test_contracts.Contracts.test_model_is_told_when_product_corpus_is_exhausted) ... ok
+test_new_failed_check_invalidates_previous_success (test_contracts.Contracts.test_new_failed_check_invalidates_previous_success) ... ok
+test_nonfinite_or_boolean_target_rejected (test_contracts.Contracts.test_nonfinite_or_boolean_target_rejected) ... ok
+test_null_provider_content_is_a_controlled_error (test_contracts.Contracts.test_null_provider_content_is_a_controlled_error) ... ok
+test_only_current_checked_draft_can_finish (test_contracts.Contracts.test_only_current_checked_draft_can_finish) ... ok
+test_overlong_cannot_finish (test_contracts.Contracts.test_overlong_cannot_finish) ... ok
+test_parser_rejects_unstructured_and_arrays (test_contracts.Contracts.test_parser_rejects_unstructured_and_arrays) ... ok
+test_product_filter_excludes_other_edition (test_contracts.Contracts.test_product_filter_excludes_other_edition) ... ok
+test_real_failure_regression_unsupported_ui_is_blocked (test_contracts.Contracts.test_real_failure_regression_unsupported_ui_is_blocked) ... ok
+test_repeated_run_does_not_reuse_evidence (test_contracts.Contracts.test_repeated_run_does_not_reuse_evidence) ... ok
+test_timing_parallel_tracks_not_double_counted (test_contracts.Contracts.test_timing_parallel_tracks_not_double_counted) ... ok
+test_timing_transition_sum (test_contracts.Contracts.test_timing_transition_sum) ... ok
+test_title_speed_claim_is_blocked (test_contracts.Contracts.test_title_speed_claim_is_blocked) ... ok
+test_tool_failure_is_distinct_from_empty_results (test_contracts.Contracts.test_tool_failure_is_distinct_from_empty_results) ... ok
+test_tool_observation_reaches_next_model_turn (test_contracts.Contracts.test_tool_observation_reaches_next_model_turn) ... ok
+test_unknown_source_not_accepted (test_contracts.Contracts.test_unknown_source_not_accepted) ... ok
+test_audit_detects_sources_removed_from_search_observation (test_evaluation.Evaluation.test_audit_detects_sources_removed_from_search_observation) ... ok
+test_audit_detects_tampered_duration_and_citation (test_evaluation.Evaluation.test_audit_detects_tampered_duration_and_citation) ... ok
+test_critical_failure_cannot_be_offset_by_other_points (test_evaluation.Evaluation.test_critical_failure_cannot_be_offset_by_other_points) ... ok
+test_grade_requires_attribution_and_range (test_evaluation.Evaluation.test_grade_requires_attribution_and_range) ... ok
+test_missing_grade_never_becomes_total (test_evaluation.Evaluation.test_missing_grade_never_becomes_total) ... ok
+test_weighted_score (test_evaluation.Evaluation.test_weighted_score) ... ok
+test_click_run_without_arguments_creates_unique_project_outputs (test_startup.Startup.test_click_run_without_arguments_creates_unique_project_outputs) ... ok
+test_default_data_resolves_from_script_not_ide_working_directory (test_startup.Startup.test_default_data_resolves_from_script_not_ide_working_directory) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.332s
+
+OK
