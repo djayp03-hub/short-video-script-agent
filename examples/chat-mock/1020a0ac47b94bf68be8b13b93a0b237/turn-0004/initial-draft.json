@@ -1,0 +1,14 @@
+{
+  "title": "字幕功能介绍",
+  "scenes": [
+    {
+      "visual": "展示素材原文卡片",
+      "narration": "剪映盒演示版支持手动添加字幕。",
+      "subtitle": "",
+      "source_ids": [
+        "P01"
+      ],
+      "min_seconds": 1
+    }
+  ]
+}

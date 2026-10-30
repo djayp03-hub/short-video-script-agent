@@ -30,7 +30,7 @@ def code_hash():
 
 
 def execute_run(request, materials, rules, output_dir, mode="mock", faults=None,
-                initial_draft=None, max_steps=12, max_seconds=240):
+                initial_draft=None, max_steps=12, max_seconds=240, initial_draft_kind="fixture"):
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=False)
     started = datetime.now(timezone.utc).isoformat()
@@ -47,7 +47,8 @@ def execute_run(request, materials, rules, output_dir, mode="mock", faults=None,
         model = LiveModel() if mode == "real" else MockModel()
         tools = ToolBox(materials, rules, faults)
         agent = Agent(model, tools, max_steps, max_seconds)
-        result = agent.run(request, initial_draft)
+        result = agent.run(request, initial_draft,
+                           require_revision=initial_draft_kind == 'conversation_previous_draft')
     except (ContractError, ModelError, KeyError) as exc:
         result = {"status": "failed", "reason": str(exc), "mode": mode, "steps": 0}
     trace = agent.trace if agent else []
@@ -60,7 +61,10 @@ def execute_run(request, materials, rules, output_dir, mode="mock", faults=None,
         "elapsed_seconds": round(time.monotonic() - start, 3), "python": platform.python_version(),
         "mode": mode, "model": getattr(model, "model", None), "source_hash": source_hash,
         "materials_hash": digest(materials), "rules_hash": digest(rules), "input_hash": digest(request),
-        "faults": faults or {}, "initial_draft_fixture": initial_draft is not None,
+        "faults": faults or {},
+        "initial_draft_fixture": initial_draft is not None and initial_draft_kind == "fixture",
+        "initial_draft_kind": initial_draft_kind if initial_draft is not None else None,
+        "revision_required": initial_draft is not None and initial_draft_kind == 'conversation_previous_draft',
         "max_steps": max_steps, "max_seconds": max_seconds, "status": result["status"],
         "model_calls": len(calls), "usage": [c.get("usage") for c in calls],
         "endpoint": getattr(model, "base_url", None)})

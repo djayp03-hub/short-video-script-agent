@@ -1,0 +1,21 @@
+{
+  "started_at_utc": "2026-10-30T04:02:20.424341+00:00",
+  "elapsed_seconds": 0.0,
+  "python": "3.12.14",
+  "mode": "mock",
+  "model": "deterministic-offline-simulator-v1",
+  "source_hash": "ba6698713028a273aeb405f8342c982fbff8a8275ec31649a4df8b8f350b4f4f",
+  "materials_hash": "45358fe5e10cf3a2740e7719092aa2246d898cc0bd49ce1007d76de730d31c1a",
+  "rules_hash": "8fdfbe69e40188e76ca8f9f39458d0d7c03a06414ddc1d0aa30b8fc53b8daea8",
+  "input_hash": "ea37f9983e679150a3f2f561c4af25b813aa5634dbdfbe6c7597c004429b29f3",
+  "faults": {},
+  "initial_draft_fixture": false,
+  "initial_draft_kind": null,
+  "revision_required": false,
+  "max_steps": 12,
+  "max_seconds": 240,
+  "status": "needs_input",
+  "model_calls": 0,
+  "usage": [],
+  "endpoint": null
+}

@@ -1,0 +1,18 @@
+{
+  "newChatClearsComposer": true,
+  "asksMissingFields": true,
+  "generatedStatus": "自动检查通过",
+  "markdownDownload": true,
+  "shortenedMetrics": "预计总时长 3.65 秒 · 修订 2 · 6 次 Agent 决策",
+  "unsupportedOfflineEditStatus": "未完成",
+  "restoredMessages": 8,
+  "mobileNoOverflow": true,
+  "materialFollowupStatus": "自动检查通过",
+  "userTextNotExecuted": true,
+  "modeFailureKeepsOldMode": true,
+  "realMissingKeyExplicit": true,
+  "realDidNotSwitchToMock": true,
+  "pageErrors": [],
+  "scope": "本机Chrome无界面浏览器检查；离线交互与真实缺密钥失败，不证明真实聊天效果",
+  "date": "2026-10-30"
+}

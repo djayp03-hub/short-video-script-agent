@@ -1,0 +1,17 @@
+{
+  "mode": "real",
+  "turn": 1,
+  "message": "介绍剪映盒演示版字幕，学生，抖音，30秒，自然",
+  "attachments_added": [],
+  "plan": null,
+  "reply": "真实模式尚未配置密钥。请在项目 .env 中填写 VIDEO_API_KEY 或 DASHSCOPE_API_KEY，重启页面服务后重试。",
+  "request": {},
+  "agent_run": false,
+  "result": {
+    "status": "failed",
+    "reason": "missing_api_key",
+    "mode": "real",
+    "steps": 0
+  },
+  "chat_model_calls": []
+}

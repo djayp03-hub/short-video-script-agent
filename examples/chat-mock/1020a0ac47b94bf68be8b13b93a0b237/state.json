@@ -1,0 +1,342 @@
+{
+  "id": "1020a0ac47b94bf68be8b13b93a0b237",
+  "mode": "mock",
+  "request": {
+    "product": "剪映盒演示版",
+    "target_seconds": 15.0,
+    "theme": "字幕功能介绍",
+    "audience": "学生",
+    "platform": "抖音",
+    "style": "活泼"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "介绍剪映盒演示版字幕，30秒",
+      "turn": 1
+    },
+    {
+      "role": "assistant",
+      "content": "请补充：受众、平台、风格\n离线演示只验证补参、时长修正与工具流程，风格改写和自由交流请用真实模式。",
+      "turn": 1
+    },
+    {
+      "role": "user",
+      "content": "受众：学生\n平台：抖音\n风格：清晰自然",
+      "turn": 2
+    },
+    {
+      "role": "assistant",
+      "content": "当前脚本已通过自动时长与规则检查，预计24.4秒。右侧可查看分镜、来源和执行记录。你可以继续要求缩短时长或调整表达。自动审核仍需人工复核。\n离线演示只验证补参、时长修正与工具流程，风格改写和自由交流请用真实模式。",
+      "turn": 2
+    },
+    {
+      "role": "user",
+      "content": "缩短到15秒",
+      "turn": 3
+    },
+    {
+      "role": "assistant",
+      "content": "当前脚本已通过自动时长与规则检查，预计3.65秒。右侧可查看分镜、来源和执行记录。你可以继续要求缩短时长或调整表达。自动审核仍需人工复核。\n离线演示只验证补参、时长修正与工具流程，风格改写和自由交流请用真实模式。",
+      "turn": 3
+    },
+    {
+      "role": "user",
+      "content": "风格：活泼",
+      "turn": 4
+    },
+    {
+      "role": "assistant",
+      "content": "当前脚本未完成验收，原因：model_stopped。已保留本轮记录，可继续补充或修改要求。\n离线演示只验证补参、时长修正与工具流程，风格改写和自由交流请用真实模式。",
+      "turn": 4
+    }
+  ],
+  "result": {
+    "status": "incomplete",
+    "reason": "model_stopped",
+    "mode": "mock",
+    "draft": {
+      "title": "字幕功能介绍",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "剪映盒演示版支持手动添加字幕。",
+          "subtitle": "",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 1
+        }
+      ]
+    },
+    "revision": 1,
+    "estimated_total_seconds": 3.65,
+    "checks": {
+      "estimate_duration": {
+        "passed": true,
+        "total_seconds": 3.65,
+        "target_seconds": 15.0,
+        "excess_seconds": 0,
+        "scenes": [
+          {
+            "scene": 1,
+            "seconds": 3.65,
+            "voice_seconds": 3.65,
+            "subtitle_seconds": 0.0
+          }
+        ],
+        "assumptions": {
+          "zh_voice_chars_per_second": 4,
+          "zh_subtitle_chars_per_second": 5,
+          "en_voice_words_per_second": 2.5,
+          "en_subtitle_words_per_second": 3,
+          "punctuation_pause_seconds": 0.15,
+          "transition_seconds": 0.25,
+          "parallel_tracks": "max(voice, subtitle, min_seconds)",
+          "kind": "estimate_not_recorded_audio"
+        },
+        "revision": 1,
+        "fingerprint": "478ef69c2b0a339e299ae29fe8bcb0b5135c450aba9b61a4e15f69f4a7becd00"
+      }
+    },
+    "sources": [
+      {
+        "id": "P01",
+        "product": "剪映盒演示版",
+        "version": "2026-10-01",
+        "synthetic": true,
+        "keywords": [
+          "字幕",
+          "手动字幕",
+          "短视频",
+          "剪辑"
+        ],
+        "text": "剪映盒演示版支持手动添加字幕。用户可以修改字幕文字和颜色。该版本不支持自动语音转字幕。"
+      },
+      {
+        "id": "P02",
+        "product": "剪映盒演示版",
+        "version": "2026-10-01",
+        "synthetic": true,
+        "keywords": [
+          "裁剪",
+          "剪辑",
+          "视频"
+        ],
+        "text": "剪映盒演示版支持裁剪视频片段和调整片段顺序。编辑后的项目可以保存为本地草稿。素材未提供任何效率提升或播放量数据。"
+      }
+    ],
+    "risks": [
+      "草稿未完成验收，不应作为已合格脚本使用"
+    ],
+    "human_review": "pending",
+    "steps": 3,
+    "detail": "离线模拟器无法完成这类表达改写，请使用真实模式"
+  },
+  "previous_result": {
+    "status": "incomplete",
+    "reason": "model_stopped",
+    "mode": "mock",
+    "draft": {
+      "title": "字幕功能介绍",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "剪映盒演示版支持手动添加字幕。",
+          "subtitle": "",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 1
+        }
+      ]
+    },
+    "revision": 1,
+    "estimated_total_seconds": 3.65,
+    "checks": {
+      "estimate_duration": {
+        "passed": true,
+        "total_seconds": 3.65,
+        "target_seconds": 15.0,
+        "excess_seconds": 0,
+        "scenes": [
+          {
+            "scene": 1,
+            "seconds": 3.65,
+            "voice_seconds": 3.65,
+            "subtitle_seconds": 0.0
+          }
+        ],
+        "assumptions": {
+          "zh_voice_chars_per_second": 4,
+          "zh_subtitle_chars_per_second": 5,
+          "en_voice_words_per_second": 2.5,
+          "en_subtitle_words_per_second": 3,
+          "punctuation_pause_seconds": 0.15,
+          "transition_seconds": 0.25,
+          "parallel_tracks": "max(voice, subtitle, min_seconds)",
+          "kind": "estimate_not_recorded_audio"
+        },
+        "revision": 1,
+        "fingerprint": "478ef69c2b0a339e299ae29fe8bcb0b5135c450aba9b61a4e15f69f4a7becd00"
+      }
+    },
+    "sources": [
+      {
+        "id": "P01",
+        "product": "剪映盒演示版",
+        "version": "2026-10-01",
+        "synthetic": true,
+        "keywords": [
+          "字幕",
+          "手动字幕",
+          "短视频",
+          "剪辑"
+        ],
+        "text": "剪映盒演示版支持手动添加字幕。用户可以修改字幕文字和颜色。该版本不支持自动语音转字幕。"
+      },
+      {
+        "id": "P02",
+        "product": "剪映盒演示版",
+        "version": "2026-10-01",
+        "synthetic": true,
+        "keywords": [
+          "裁剪",
+          "剪辑",
+          "视频"
+        ],
+        "text": "剪映盒演示版支持裁剪视频片段和调整片段顺序。编辑后的项目可以保存为本地草稿。素材未提供任何效率提升或播放量数据。"
+      }
+    ],
+    "risks": [
+      "草稿未完成验收，不应作为已合格脚本使用"
+    ],
+    "human_review": "pending",
+    "steps": 3,
+    "detail": "离线模拟器无法完成这类表达改写，请使用真实模式"
+  },
+  "previous_request": {
+    "product": "剪映盒演示版",
+    "target_seconds": 15.0,
+    "theme": "字幕功能介绍",
+    "audience": "学生",
+    "platform": "抖音",
+    "style": "活泼"
+  },
+  "artifact_dir": "D:\\AI_learn\\project_OPEN\\zhineng_kefu\\03_代码\\llm_customer_service\\examples\\chat-mock\\1020a0ac47b94bf68be8b13b93a0b237\\turn-0004",
+  "trace": [
+    {
+      "step": 1,
+      "mode": "mock",
+      "revision_before": 1,
+      "decision": {
+        "action": "search_materials",
+        "args": {
+          "query": "剪映盒演示版"
+        },
+        "reason": "[MOCK 固定规则] 查找素材"
+      },
+      "observation": {
+        "ok": true,
+        "data": {
+          "materials": [
+            {
+              "id": "P01",
+              "product": "剪映盒演示版",
+              "version": "2026-10-01",
+              "synthetic": true,
+              "keywords": [
+                "字幕",
+                "手动字幕",
+                "短视频",
+                "剪辑"
+              ],
+              "text": "剪映盒演示版支持手动添加字幕。用户可以修改字幕文字和颜色。该版本不支持自动语音转字幕。"
+            },
+            {
+              "id": "P02",
+              "product": "剪映盒演示版",
+              "version": "2026-10-01",
+              "synthetic": true,
+              "keywords": [
+                "裁剪",
+                "剪辑",
+                "视频"
+              ],
+              "text": "剪映盒演示版支持裁剪视频片段和调整片段顺序。编辑后的项目可以保存为本地草稿。素材未提供任何效率提升或播放量数据。"
+            }
+          ],
+          "query": "剪映盒演示版"
+        },
+        "error": null
+      },
+      "revision_after": 1,
+      "elapsed_seconds": 0.0
+    },
+    {
+      "step": 2,
+      "mode": "mock",
+      "revision_before": 1,
+      "decision": {
+        "action": "estimate_duration",
+        "args": {},
+        "reason": "[MOCK 固定规则] 检查时长"
+      },
+      "observation": {
+        "ok": true,
+        "data": {
+          "passed": true,
+          "total_seconds": 3.65,
+          "target_seconds": 15.0,
+          "excess_seconds": 0,
+          "scenes": [
+            {
+              "scene": 1,
+              "seconds": 3.65,
+              "voice_seconds": 3.65,
+              "subtitle_seconds": 0.0
+            }
+          ],
+          "assumptions": {
+            "zh_voice_chars_per_second": 4,
+            "zh_subtitle_chars_per_second": 5,
+            "en_voice_words_per_second": 2.5,
+            "en_subtitle_words_per_second": 3,
+            "punctuation_pause_seconds": 0.15,
+            "transition_seconds": 0.25,
+            "parallel_tracks": "max(voice, subtitle, min_seconds)",
+            "kind": "estimate_not_recorded_audio"
+          },
+          "revision": 1,
+          "fingerprint": "478ef69c2b0a339e299ae29fe8bcb0b5135c450aba9b61a4e15f69f4a7becd00"
+        },
+        "error": null
+      },
+      "revision_after": 1,
+      "elapsed_seconds": 0.0
+    },
+    {
+      "step": 3,
+      "mode": "mock",
+      "revision_before": 1,
+      "decision": {
+        "action": "stop",
+        "args": {
+          "reason": "离线模拟器无法完成这类表达改写，请使用真实模式"
+        },
+        "reason": "[MOCK 固定规则] 保留上一版，明确未完成修改"
+      },
+      "observation": {
+        "ok": true,
+        "data": {
+          "reason": "离线模拟器无法完成这类表达改写，请使用真实模式"
+        },
+        "error": null
+      },
+      "revision_after": 1,
+      "elapsed_seconds": 0.0
+    }
+  ],
+  "attachments": [],
+  "turns": 4
+}

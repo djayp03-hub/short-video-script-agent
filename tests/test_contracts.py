@@ -89,6 +89,33 @@ class Contracts(unittest.TestCase):
         self.assertEqual(result["checks"], {})
         self.assertEqual(len(a.revisions), 2)
 
+    def test_conversation_revision_cannot_finish_with_the_unchanged_old_draft(self):
+        sequence = [action('search_materials', query='字幕'), action('estimate_duration'),
+                    action('check_rules'), action('finish')]
+        agent = self.agent(sequence, max_steps=4)
+        result = agent.run(self.request, self.draft, require_revision=True)
+        self.assertNotEqual(result['status'], 'completed')
+        self.assertTrue(agent.model.observed_states[-1]['revision_required'])
+        self.assertNotIn('finish', agent.model.observed_states[-1]['allowed_actions'])
+
+    def test_conversation_revision_can_finish_after_changed_draft_and_fresh_checks(self):
+        changed = copy.deepcopy(self.draft)
+        changed['title'] = '手动字幕介绍'
+        sequence = [action('search_materials', query='字幕'), action('estimate_duration'),
+                    action('submit_draft', draft=changed), action('estimate_duration'),
+                    action('check_rules'), action('finish')]
+        agent = self.agent(sequence)
+        result = agent.run(self.request, self.draft, require_revision=True)
+        self.assertEqual(result['status'], 'completed')
+        self.assertEqual(result['checks']['check_rules']['revision'], 2)
+
+    def test_invalid_initial_draft_fails_before_revision_hashing(self):
+        invalid = copy.deepcopy(self.draft)
+        invalid['scenes'][0]['min_seconds'] = math.nan
+        result = self.agent([]).run(self.request, invalid, require_revision=True)
+        self.assertEqual(result['status'], 'failed')
+        self.assertEqual(result['reason'], 'invalid_input')
+
     def test_new_failed_check_invalidates_previous_success(self):
         a = self.agent(self.checked())
         a.run(self.request)

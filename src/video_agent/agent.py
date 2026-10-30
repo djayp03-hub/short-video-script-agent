@@ -15,8 +15,10 @@ class Agent:
         self.max_steps, self.max_seconds = max_steps, max_seconds
         self.trace, self.revisions = [], []
 
-    def run(self, request, initial_draft=None):
+    def run(self, request, initial_draft=None, require_revision=False):
         self.trace, self.revisions = [], []
+        self.require_revision = require_revision and initial_draft is not None
+        self.initial_draft_hash = None
         start = time.monotonic()
         state = {"request": copy.deepcopy(request), "evidence": {}, "draft": None,
                  "revision": 0, "checks": {}, "observations": []}
@@ -27,6 +29,8 @@ class Agent:
                 return self.result("needs_input", "missing_fields", missing_fields=missing,
                                    question="请补充：" + "、".join(missing))
             if initial_draft is not None:
+                validate_draft(initial_draft)
+                self.initial_draft_hash = digest(initial_draft)
                 self.submit(initial_draft)
         except (ContractError, KeyError, TypeError) as exc:
             return self.result("failed", "invalid_input", detail=str(exc))
@@ -46,6 +50,9 @@ class Agent:
                 exhausted = bool(product_ids) and product_ids <= state["evidence"].keys()
                 public["all_product_materials_retrieved"] = exhausted
                 public["allowed_actions"] = ["submit_draft", "ask_user", "stop", "finish"]
+                public["revision_required"] = self.revision_needed()
+                if public["revision_required"]:
+                    public["allowed_actions"].remove("finish")
                 if not exhausted:
                     public["allowed_actions"].append("search_materials")
                 if state["draft"]:
@@ -84,11 +91,16 @@ class Agent:
 
     def submit(self, draft):
         validate_draft(draft)
+        if self.state['draft'] is not None and self.revision_needed() and digest(draft) == self.initial_draft_hash:
+            raise ContractError('本轮要求改稿，不能重复提交未变化的上一版脚本')
         self.state["draft"] = copy.deepcopy(draft)
         self.state["revision"] += 1
         self.state["checks"] = {}
         self.revisions.append({"revision": self.state["revision"], "hash": digest(draft),
                                "draft": copy.deepcopy(draft)})
+
+    def revision_needed(self):
+        return bool(self.require_revision and digest(self.state['draft']) == self.initial_draft_hash)
 
     def fingerprint(self):
         return digest({"draft": self.state["draft"], "request": self.state["request"],
@@ -133,7 +145,7 @@ class Agent:
             return observation, None
         if name == "finish":
             checks = state["checks"]
-            if not state["draft"] or any(
+            if self.revision_needed() or not state["draft"] or any(
                 not checks.get(k, {}).get("passed") or checks[k].get("fingerprint") != self.fingerprint()
                 for k in ("estimate_duration", "check_rules")):
                 return error("finish_blocked", "当前脚本必须通过时长与规则检查；旧检查无效"), None

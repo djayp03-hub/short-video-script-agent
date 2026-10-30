@@ -4,12 +4,25 @@
   "repository_url": "https://github.com/djayp03-hub/short-video-script-agent",
   "branch": "main",
   "entry": "run.py",
-  "engineering_tests": 40,
+  "engineering_tests": 67,
+  "submitted_commit": "cf74a4bf8cc210dc51ab9af3681a2b628baf279c",
+  "local_extension": {
+    "date": "2026-10-30",
+    "entry": "run_chat.py",
+    "feature": "本地多轮对话、素材补充和改稿复检",
+    "pushed": true,
+    "real_chat_effect_verified": false,
+    "release_date": "2026-10-30"
+  },
   "limitations": [
     "同模型语义审核存在漏判",
     "没有独立人工内容评分",
     "净人工工时未连续计时",
-    "最终规则校验修复后未重跑真实评测：本地缺密钥"
+    "新增聊天入口尚未完成真实多轮系统效果评测；本地已配置密钥，不能据配置成功推导效果通过"
   ],
-  "commit_sha_instruction": "Use the full SHA supplied with the submission, or git rev-parse HEAD on the submitted checkout."
+  "commit_sha_instruction": "Use the full SHA supplied with the submission, or git rev-parse HEAD on the submitted checkout.",
+  "entries": {
+    "cli": "run.py",
+    "chat": "run_chat.py"
+  }
 }

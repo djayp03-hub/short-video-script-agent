@@ -1,0 +1,47 @@
+[
+  {
+    "revision": 1,
+    "hash": "b78ef484490afd76bfd820ebb3d6e82fe347e901238f6029495219fa790519bd",
+    "draft": {
+      "title": "字幕功能介绍",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "剪映盒演示版支持手动添加字幕。用户可以修改字幕文字和颜色。该版本不支持自动语音转字幕。",
+          "subtitle": "",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 2
+        },
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "剪映盒演示版支持裁剪视频片段和调整片段顺序。编辑后的项目可以保存为本地草稿。素材未提供任何效率提升或播放量数据。",
+          "subtitle": "",
+          "source_ids": [
+            "P02"
+          ],
+          "min_seconds": 2
+        }
+      ]
+    }
+  },
+  {
+    "revision": 2,
+    "hash": "36d0cee103de09e4ca87186000e90d93f2622ad23f21b5cb726abe2c2c5d5025",
+    "draft": {
+      "title": "字幕功能介绍",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "剪映盒演示版支持手动添加字幕。",
+          "subtitle": "",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 1
+        }
+      ]
+    }
+  }
+]

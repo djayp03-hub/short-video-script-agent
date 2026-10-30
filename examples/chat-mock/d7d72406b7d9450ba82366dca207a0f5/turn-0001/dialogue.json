@@ -1,0 +1,46 @@
+{
+  "mode": "mock",
+  "turn": 1,
+  "message": "产品：校园便签\n主题：便签介绍\n受众：学生\n平台：抖音\n时长：30秒\n风格：自然",
+  "attachments_added": [],
+  "plan": {
+    "reply": "需求已整理，接下来运行工具检查。",
+    "request": {
+      "theme": "便签介绍",
+      "audience": "学生",
+      "platform": "抖音",
+      "style": "自然",
+      "product": "校园便签",
+      "target_seconds": 30.0
+    },
+    "run": true,
+    "use_previous_draft": false
+  },
+  "reply": "请提供该主题的产品素材\n离线演示只验证补参、时长修正与工具流程，风格改写和自由交流请用真实模式。",
+  "request": {
+    "theme": "便签介绍",
+    "audience": "学生",
+    "platform": "抖音",
+    "style": "自然",
+    "product": "校园便签",
+    "target_seconds": 30.0
+  },
+  "agent_run": true,
+  "result": {
+    "status": "needs_input",
+    "reason": "clarification",
+    "mode": "mock",
+    "draft": null,
+    "revision": 0,
+    "estimated_total_seconds": null,
+    "checks": {},
+    "sources": [],
+    "risks": [
+      "草稿未完成验收，不应作为已合格脚本使用"
+    ],
+    "human_review": "pending",
+    "steps": 3,
+    "question": "请提供该主题的产品素材"
+  },
+  "chat_model_calls": []
+}

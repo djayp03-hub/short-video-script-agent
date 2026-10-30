@@ -1,0 +1,112 @@
+{
+  "mode": "mock",
+  "turn": 2,
+  "message": "我补充了资料，请继续生成",
+  "attachments_added": [
+    {
+      "id": "U-3ae6ab35de97",
+      "product": "校园便签",
+      "text": "校园便签支持本地保存文字。",
+      "version": "2026-10-30",
+      "keywords": [],
+      "synthetic": false,
+      "user_provided": true
+    }
+  ],
+  "plan": {
+    "reply": "需求已整理，接下来运行工具检查。",
+    "request": {
+      "theme": "便签介绍",
+      "audience": "学生",
+      "platform": "抖音",
+      "style": "自然",
+      "product": "校园便签",
+      "target_seconds": 30.0
+    },
+    "run": true,
+    "use_previous_draft": false
+  },
+  "reply": "当前脚本已通过自动时长与规则检查，预计3.15秒。右侧可查看分镜、来源和执行记录。你可以继续要求缩短时长或调整表达。自动审核仍需人工复核。\n离线演示只验证补参、时长修正与工具流程，风格改写和自由交流请用真实模式。",
+  "request": {
+    "theme": "便签介绍",
+    "audience": "学生",
+    "platform": "抖音",
+    "style": "自然",
+    "product": "校园便签",
+    "target_seconds": 30.0
+  },
+  "agent_run": true,
+  "result": {
+    "status": "completed",
+    "reason": "checks_passed",
+    "mode": "mock",
+    "draft": {
+      "title": "便签介绍",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "校园便签支持本地保存文字。",
+          "subtitle": "",
+          "source_ids": [
+            "U-3ae6ab35de97"
+          ],
+          "min_seconds": 2
+        }
+      ]
+    },
+    "revision": 1,
+    "estimated_total_seconds": 3.15,
+    "checks": {
+      "estimate_duration": {
+        "passed": true,
+        "total_seconds": 3.15,
+        "target_seconds": 30.0,
+        "excess_seconds": 0,
+        "scenes": [
+          {
+            "scene": 1,
+            "seconds": 3.15,
+            "voice_seconds": 3.15,
+            "subtitle_seconds": 0.0
+          }
+        ],
+        "assumptions": {
+          "zh_voice_chars_per_second": 4,
+          "zh_subtitle_chars_per_second": 5,
+          "en_voice_words_per_second": 2.5,
+          "en_subtitle_words_per_second": 3,
+          "punctuation_pause_seconds": 0.15,
+          "transition_seconds": 0.25,
+          "parallel_tracks": "max(voice, subtitle, min_seconds)",
+          "kind": "estimate_not_recorded_audio"
+        },
+        "revision": 1,
+        "fingerprint": "c2b962efb54f4cb14fcb3f6ce5d767492b84d837f9225a8dfe4f19c1a5380c94"
+      },
+      "check_rules": {
+        "passed": true,
+        "issues": [],
+        "review_mode": "mock",
+        "semantic_supported": true,
+        "limitation": "自动审核不是独立人工事实复核",
+        "revision": 1,
+        "fingerprint": "c2b962efb54f4cb14fcb3f6ce5d767492b84d837f9225a8dfe4f19c1a5380c94"
+      }
+    },
+    "sources": [
+      {
+        "id": "U-3ae6ab35de97",
+        "product": "校园便签",
+        "text": "校园便签支持本地保存文字。",
+        "version": "2026-10-30",
+        "keywords": [],
+        "synthetic": false,
+        "user_provided": true
+      }
+    ],
+    "risks": [],
+    "human_review": "pending",
+    "steps": 5
+  },
+  "chat_model_calls": []
+}

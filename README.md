@@ -1,6 +1,14 @@
-# 短视频脚本 Agent 
+# 短视频脚本 Agent · 校招笔试第 4 题
 
 根据素材生成可编辑分镜，利用真实工具结果调整查询或脚本，并在当前版本通过时长、引用与品牌规则检查后结束。提供零第三方运行依赖的 Python CLI，以及明确标记的离线模拟入口。
+
+## 本地聊天页面（2026-10-30 新增）
+
+在 **PyCharm 右键运行根目录 `run_chat.py`**，参数留空，浏览器会打开 `http://127.0.0.1:8765/`。可以连续补充需求、要求缩短时长、补充产品素材，并查看分镜、来源和执行记录；同一主题改稿必须提交变化后的版本并重新检查。
+
+默认离线演示。要自由交流与文案改写，先配置 `.env`，重启服务后选择页面右上角的真实模式。真实失败不会静默切换 Mock。完整步骤见 [聊天使用说明](docs/07-chat-guide.md)。原 `run.py` 单次入口保持可用。
+
+这部分是首次 CLI 考试提交后新增的交互功能，本次更新一并提交代码、文档与离线验证材料。新聊天入口的真实模型效果尚未验证，历史真实案例不代表本次扩展已通过真实评测。
 
 本机另有可选 Codex Actions 配置，便于一键运行；包含个人解释器路径的 `.codex/` 不纳入仓库。评审可直接使用下方跨环境 CLI，或按运行说明书配置 PyCharm。真实生成需先填写自己的 `.env` 密钥。
 
@@ -66,7 +74,7 @@ python run.py --input data/request.json --mode mock --max-steps 12 --output runs
 4. [AI 使用与贡献边界](docs/04-ai-usage.md)
 5. [复盘](docs/05-retrospective.md)
 
-最终验证目录为 `examples/final-real`、`examples/final-mock` 和 `examples/fresh-real`。代表性开发失败记录汇总在 `examples/development-failures.json`，过期中间目录已清理。当前40项工程测试通过、真实11/11自动合同验收通过；内容人工评分仍待完成，详见评测文档。
+首次提交的验证目录为 `examples/final-real`、`examples/final-mock` 和 `examples/fresh-real`。代表性开发失败记录汇总在 `examples/development-failures.json`。首次提交时40项工程测试通过、历史真实11/11自动合同验收通过；内容人工评分仍待完成。2026-10-30 本地聊天扩展后全套 **67 项测试通过**，另有 **6/6 离线对话场景通过**，见 [聊天测试日志](examples/chat-test-results.txt)、[离线汇总](examples/chat-mock/summary.json) 和 [浏览器检查](examples/chat-browser-checks.json)。新增聊天入口尚未做真实模型效果验证。
 
 核验已保存记录与打分：
 
@@ -87,7 +95,7 @@ python scripts/score_reviews.py examples/review-template.json --output runs-revi
 
 离线 Mock 只检查程序机制，决策是固定规则、内容主要拼接原文，不代表生成效果。真实模式使用模型做事实语义审核，该审核与决策使用同一提供方，不是独立评审，可能共同出错。合成留出集也由同一开发助手设计，不属于外部盲测。
 
-本次选题为 **第4题：短视频脚本 Agent**，提交仓库：https://github.com/djayp03-hub/short-video-script-agent 。最终 commit SHA 以提交时提供的完整哈希为准，也可在克隆后用 `git rev-parse HEAD` 查询。首版无业务 UI、数据库或多 Agent；已有结果不能直接推导真实业务的稳定准确率。
+本次选题为 **第4题：短视频脚本 Agent**，提交仓库：https://github.com/djayp03-hub/short-video-script-agent 。最终 commit SHA 以提交时提供的完整哈希为准，也可在克隆后用 `git rev-parse HEAD` 查询。首次提交没有业务 UI；本次更新新增聊天页面，保留原 CLI 评审入口。已有结果不能直接推导真实业务的稳定准确率。
 
 
-完整的逐项交付核对见 [试卷提交检查表](docs/06-submission-checklist.md)。本次提交前再次完成40项工程测试；最新真实记录见 `examples/user-real/`。规则结构校验修复后的本次模型启动检查见 `examples/submission-real/`，因本地缺少密钥明确返回 failed，未伪造为通过。
+完整的首次提交核对见 [试卷提交检查表](docs/06-submission-checklist.md)。首次提交前完成40项工程测试，用户真实运行记录见 `examples/user-real/`。规则结构校验修复后的模型启动检查见 `examples/submission-real/`，因本地缺少密钥明确返回 failed。聊天扩展验证见评测文档新增章节；旧 delivery-manifest.json 对应首次 CLI 提交快照。新版 PPT、PDF 与讲解稿见 [演示材料](deliverables/README.md)。

@@ -2,6 +2,8 @@
 
 选题：短视频脚本 Agent。只验收第4题，不包含第1–3题的业务功能。
 
+下表记录2026-10-29首次提交审查。2026-10-30本地新增聊天入口 run_chat.py，当前全套67项测试通过，离线对话6/6通过；本次同步新增部分，真实聊天系统效果评测尚未完成，见 [评估更新](03-evaluation.md) 和 [聊天说明](07-chat-guide.md)。
+
 | 试卷要求 | 对应实现与材料 | 审查结果 |
 |---|---|---|
 | 用户、目标、范围和成功标准 | docs/01-requirements.md | 已具备 |
@@ -13,7 +15,7 @@
 | 模型选动作→工具→观察→再决策 | agent.py + model_client.py，最终真实Trace | 已具备；不是Mock路径冒充 |
 | 至少两条不同路径 | final-real/C05-overlong 与 C08-empty-rewrite，另有C06/C07 | 已具备 |
 | 步数/调用上限与明确未完成 | 12步、24次模型调用；step_limit/model_call_limit | 已具备 |
-| 正常生成 | final-real/C01-normal，当前版本另有user-real | 已具备 |
+| 正常生成 | final-real/C01-normal，历史入口修复版本另有user-real | 已具备 |
 | 缺关键信息 | final-real/C02-missing | 已具备 |
 | 无素材 | final-real/C03-no-material | 已具备 |
 | 工具失败 | final-real/C04-tool-failure、C07-recover-failure | 已具备，故障注入有记录 |

@@ -1,0 +1,20 @@
+[
+  {
+    "revision": 1,
+    "hash": "b1e6563e2f64a82f86f087f4f3c32919d2aed1ca70a9c3427eb3a2227f86fe27",
+    "draft": {
+      "title": "便签介绍",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "校园便签支持本地保存文字。",
+          "subtitle": "",
+          "source_ids": [
+            "U-3ae6ab35de97"
+          ],
+          "min_seconds": 2
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "id": "68f2083db6e048e3ba0882d8c4a651ed",
+  "mode": "real",
+  "request": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "介绍剪映盒演示版字幕，学生，抖音，30秒，自然",
+      "turn": 1
+    },
+    {
+      "role": "assistant",
+      "content": "真实模式尚未配置密钥。请在项目 .env 中填写 VIDEO_API_KEY 或 DASHSCOPE_API_KEY，重启页面服务后重试。",
+      "turn": 1
+    }
+  ],
+  "result": {
+    "status": "failed",
+    "reason": "missing_api_key",
+    "mode": "real",
+    "steps": 0
+  },
+  "previous_result": {},
+  "previous_request": {},
+  "artifact_dir": "D:\\AI_learn\\project_OPEN\\zhineng_kefu\\03_代码\\llm_customer_service\\runs\\chat\\68f2083db6e048e3ba0882d8c4a651ed\\turn-0001",
+  "trace": [],
+  "attachments": [],
+  "turns": 1
+}

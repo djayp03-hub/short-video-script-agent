@@ -14,3 +14,6 @@ video-agent = "video_agent.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+video_agent = ["web/*.html"]

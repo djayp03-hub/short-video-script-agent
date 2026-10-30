@@ -41,6 +41,8 @@ class MockModel:
             if digest(draft) == digest(state["draft"]):
                 return action("stop", {"reason": "最短原文仍超时长"}, "离线失败分支")
             return action("submit_draft", {"draft": draft}, "离线取第一句压缩")
+        if state.get('revision_required'):
+            return action('stop', {'reason':'离线模拟器无法完成这类表达改写，请使用真实模式'}, '保留上一版，明确未完成修改')
         if "check_rules" not in checks:
             return action("check_rules", {}, "检查规则")
         if not checks["check_rules"]["passed"]:

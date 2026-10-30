@@ -1,0 +1,25 @@
+{
+  "mode": "mock",
+  "turn": 1,
+  "message": "介绍剪映盒演示版字幕，30秒",
+  "attachments_added": [],
+  "plan": {
+    "reply": "请补充：受众、平台、风格",
+    "request": {
+      "product": "剪映盒演示版",
+      "target_seconds": 30.0,
+      "theme": "字幕功能介绍"
+    },
+    "run": false,
+    "use_previous_draft": false
+  },
+  "reply": "请补充：受众、平台、风格\n离线演示只验证补参、时长修正与工具流程，风格改写和自由交流请用真实模式。",
+  "request": {
+    "product": "剪映盒演示版",
+    "target_seconds": 30.0,
+    "theme": "字幕功能介绍"
+  },
+  "agent_run": false,
+  "result": null,
+  "chat_model_calls": []
+}

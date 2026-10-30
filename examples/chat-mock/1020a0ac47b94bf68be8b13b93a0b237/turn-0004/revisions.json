@@ -1,0 +1,20 @@
+[
+  {
+    "revision": 1,
+    "hash": "36d0cee103de09e4ca87186000e90d93f2622ad23f21b5cb726abe2c2c5d5025",
+    "draft": {
+      "title": "字幕功能介绍",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "剪映盒演示版支持手动添加字幕。",
+          "subtitle": "",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 1
+        }
+      ]
+    }
+  }
+]

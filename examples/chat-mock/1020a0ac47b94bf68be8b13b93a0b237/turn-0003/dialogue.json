@@ -1,0 +1,118 @@
+{
+  "mode": "mock",
+  "turn": 3,
+  "message": "缩短到15秒",
+  "attachments_added": [],
+  "plan": {
+    "reply": "需求已整理，接下来运行工具检查。",
+    "request": {
+      "product": "剪映盒演示版",
+      "target_seconds": 15.0,
+      "theme": "字幕功能介绍",
+      "audience": "学生",
+      "platform": "抖音",
+      "style": "清晰自然"
+    },
+    "run": true,
+    "use_previous_draft": true
+  },
+  "reply": "当前脚本已通过自动时长与规则检查，预计3.65秒。右侧可查看分镜、来源和执行记录。你可以继续要求缩短时长或调整表达。自动审核仍需人工复核。\n离线演示只验证补参、时长修正与工具流程，风格改写和自由交流请用真实模式。",
+  "request": {
+    "product": "剪映盒演示版",
+    "target_seconds": 15.0,
+    "theme": "字幕功能介绍",
+    "audience": "学生",
+    "platform": "抖音",
+    "style": "清晰自然"
+  },
+  "agent_run": true,
+  "result": {
+    "status": "completed",
+    "reason": "checks_passed",
+    "mode": "mock",
+    "draft": {
+      "title": "字幕功能介绍",
+      "scenes": [
+        {
+          "visual": "展示素材原文卡片",
+          "narration": "剪映盒演示版支持手动添加字幕。",
+          "subtitle": "",
+          "source_ids": [
+            "P01"
+          ],
+          "min_seconds": 1
+        }
+      ]
+    },
+    "revision": 2,
+    "estimated_total_seconds": 3.65,
+    "checks": {
+      "estimate_duration": {
+        "passed": true,
+        "total_seconds": 3.65,
+        "target_seconds": 15.0,
+        "excess_seconds": 0,
+        "scenes": [
+          {
+            "scene": 1,
+            "seconds": 3.65,
+            "voice_seconds": 3.65,
+            "subtitle_seconds": 0.0
+          }
+        ],
+        "assumptions": {
+          "zh_voice_chars_per_second": 4,
+          "zh_subtitle_chars_per_second": 5,
+          "en_voice_words_per_second": 2.5,
+          "en_subtitle_words_per_second": 3,
+          "punctuation_pause_seconds": 0.15,
+          "transition_seconds": 0.25,
+          "parallel_tracks": "max(voice, subtitle, min_seconds)",
+          "kind": "estimate_not_recorded_audio"
+        },
+        "revision": 2,
+        "fingerprint": "7eb9066ed18b2cf672e1edaebf57ea5037c23516cfa3c9bc3c31e6dda663f835"
+      },
+      "check_rules": {
+        "passed": true,
+        "issues": [],
+        "review_mode": "mock",
+        "semantic_supported": true,
+        "limitation": "自动审核不是独立人工事实复核",
+        "revision": 2,
+        "fingerprint": "7eb9066ed18b2cf672e1edaebf57ea5037c23516cfa3c9bc3c31e6dda663f835"
+      }
+    },
+    "sources": [
+      {
+        "id": "P01",
+        "product": "剪映盒演示版",
+        "version": "2026-10-01",
+        "synthetic": true,
+        "keywords": [
+          "字幕",
+          "手动字幕",
+          "短视频",
+          "剪辑"
+        ],
+        "text": "剪映盒演示版支持手动添加字幕。用户可以修改字幕文字和颜色。该版本不支持自动语音转字幕。"
+      },
+      {
+        "id": "P02",
+        "product": "剪映盒演示版",
+        "version": "2026-10-01",
+        "synthetic": true,
+        "keywords": [
+          "裁剪",
+          "剪辑",
+          "视频"
+        ],
+        "text": "剪映盒演示版支持裁剪视频片段和调整片段顺序。编辑后的项目可以保存为本地草稿。素材未提供任何效率提升或播放量数据。"
+      }
+    ],
+    "risks": [],
+    "human_review": "pending",
+    "steps": 6
+  },
+  "chat_model_calls": []
+}

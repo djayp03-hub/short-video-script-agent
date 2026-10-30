@@ -1,0 +1,68 @@
+{
+  "mode": "mock",
+  "scope": "离线对话机制与产物一致性，不代表真实模型效果",
+  "total": 6,
+  "passes": 6,
+  "cases": [
+    {
+      "case": "missing_requirements",
+      "input": "介绍剪映盒演示版字幕，30秒",
+      "expected": "conversation_only",
+      "actual": "conversation_only",
+      "passed": true,
+      "estimated_seconds": null,
+      "record": "1020a0ac47b94bf68be8b13b93a0b237/turn-0001",
+      "artifact_errors": []
+    },
+    {
+      "case": "complete_after_followup",
+      "input": "受众：学生\n平台：抖音\n风格：清晰自然",
+      "expected": "completed",
+      "actual": "completed",
+      "passed": true,
+      "estimated_seconds": 24.4,
+      "record": "1020a0ac47b94bf68be8b13b93a0b237/turn-0002",
+      "artifact_errors": []
+    },
+    {
+      "case": "shorten_and_recheck",
+      "input": "缩短到15秒",
+      "expected": "completed",
+      "actual": "completed",
+      "passed": true,
+      "estimated_seconds": 3.65,
+      "record": "1020a0ac47b94bf68be8b13b93a0b237/turn-0003",
+      "artifact_errors": []
+    },
+    {
+      "case": "unsupported_offline_style",
+      "input": "风格：活泼",
+      "expected": "incomplete",
+      "actual": "incomplete",
+      "passed": true,
+      "estimated_seconds": 3.65,
+      "record": "1020a0ac47b94bf68be8b13b93a0b237/turn-0004",
+      "artifact_errors": []
+    },
+    {
+      "case": "missing_material",
+      "input": "产品：校园便签\n主题：便签介绍\n受众：学生\n平台：抖音\n时长：30秒\n风格：自然",
+      "expected": "needs_input",
+      "actual": "needs_input",
+      "passed": true,
+      "estimated_seconds": null,
+      "record": "d7d72406b7d9450ba82366dca207a0f5/turn-0001",
+      "artifact_errors": []
+    },
+    {
+      "case": "resume_after_material",
+      "input": "我补充了资料，请继续生成",
+      "expected": "completed",
+      "actual": "completed",
+      "passed": true,
+      "estimated_seconds": 3.15,
+      "record": "d7d72406b7d9450ba82366dca207a0f5/turn-0002",
+      "artifact_errors": []
+    }
+  ]
+}
